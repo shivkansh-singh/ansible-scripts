@@ -1,0 +1,14 @@
+---
+- name: using the copy module
+  hosts: serverb
+  remote_user: student
+
+  tasks:
+    - name: copy a file to managed hosts and set attributes
+      copy:
+        src: files/users.txt
+        dest: /home/student/users.txt
+        owner: student
+        group: student
+        mode: u+rw,g-wx,o-rwx
+        setype: _default

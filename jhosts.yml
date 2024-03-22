@@ -1,0 +1,14 @@
+---
+- name: setting hosts names
+  hosts: all
+  gather_facts: yes
+
+  tasks:
+    - name: configure /etc/hosts in serverbhosts
+      ansible.builtin.template:
+        src: jhosts.j2
+        dest: /home/student/allhosts
+        
+        
+        
+

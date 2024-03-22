@@ -1,0 +1,22 @@
+---
+- name: task failure exercise
+  hosts: servera
+  vars:
+    unders:
+      -  httpd
+      -  mariadb-server
+    db_service: mariadb
+  tasks:
+    - name: Install httpd and mariadb-server package
+      ansible.builtin.dnf:
+        name: " {{ item }}"
+        state: present
+        ignore_errors: yes
+      loop: "{{ unders }}"
+      when: ansible_distribution == "redhat"
+    
+    - name: start {{ db_service }} service
+      ansible.builtin.service:
+        name: " {{ db_service }}"
+        state: started
+        enabled: true

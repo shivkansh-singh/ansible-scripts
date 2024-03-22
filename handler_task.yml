@@ -1,0 +1,23 @@
+---
+- name: MariaDB server is installed
+  hosts: serverb
+  vars:
+    db_packages:
+      - mariadb-server
+      - python3-PyMySQL
+    db_service: mariadb
+
+  tasks:
+    - name: "{{ db_packages }} packages are installed"
+      dnf:
+        name: "{{ db_packages }}"
+        state: present
+      notify:
+        - start db service
+
+  handlers:
+    - name: start db service
+      service:
+        name: "{{ db_service}}"
+        state: started
+        enabled: true 

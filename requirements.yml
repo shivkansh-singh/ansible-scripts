@@ -1,0 +1,8 @@
+---
+- src: https://github.com/bennojoy/nginx
+  name: webserver
+
+- src: geerlingguy.java
+  version: "1.9.6"
+
+- src: https://github.com/shaneholloman/ansible-role-apache

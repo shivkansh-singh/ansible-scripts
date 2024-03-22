@@ -1,0 +1,11 @@
+---
+- name: Add text to an existing file
+  hosts: serverb
+  remote_user: student
+
+  tasks:
+    - name: add a single line of text to a file
+      ansible.builtin.lineinfile:
+        path: /home/student/users.txt
+        line: SM and is added by the lineinfile module
+        state: present

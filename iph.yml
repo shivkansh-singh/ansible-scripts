@@ -1,0 +1,24 @@
+---
+- name: configure web server
+  hosts: serverb
+
+  tasks:
+    - name: Include the environment task file and set the variable
+      include_tasks: environment.yml
+      vars:
+        package: httpd
+        service: httpd
+
+    - name: import the firewall task file and set the variable
+      include_tasks: firewall.yml
+      vars:
+        firewall_pkg: firewalld
+        firewall_svc: firewalld
+        rule:
+          - http
+          - https
+
+    - name: import the placeholder task file and set the variable
+      include_tasks: placeholder.yml
+      vars:
+        file: /var/www/html/index.html      

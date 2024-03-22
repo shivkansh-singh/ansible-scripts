@@ -1,0 +1,15 @@
+workstation
+servera
+serverb
+
+
+[dev]
+servera
+
+[ops]
+serverb
+
+[devops]
+servera
+serverb
+ 

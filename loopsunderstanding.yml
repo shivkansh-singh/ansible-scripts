@@ -1,0 +1,14 @@
+---
+- name: starting two services postfix and dovecot
+  hosts: servera
+  tasks:
+    - name: postfix is running
+      ansible.builtin.service:
+       name: postfix
+       state: started
+
+
+    - name: dovecot is running
+      ansible.builtin.service:
+       name: dovecot
+       state: started

@@ -1,0 +1,9 @@
+---
+- name: removing the file using file module
+  hosts: serverb
+  remote_user: student
+  tasks:
+    - name: Remove a file from managed hosts
+      ansible.builtin.file:
+        path: /home/student/users.txt
+        state: absent

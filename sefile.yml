@@ -1,0 +1,11 @@
+---
+- name: using file module to ensure SElinux file context
+  hosts: serverb
+  remote_user: student
+
+  tasks:
+    - name: file context set to defaults
+      file:
+        path: /home/student/users.txt
+        setype: _default
+        seuser: _default

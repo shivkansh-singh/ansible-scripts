@@ -1,0 +1,43 @@
+---
+- name: deploy and start Apache Httpd service
+  hosts: servera
+  vars:
+    web_pkg: httpd
+    firewall_pkg: firewalld
+    web_service: httpd
+    firewall_service: firewalld
+    python_pkg: python3-PyMySQL
+    rule: http
+
+  tasks:
+    - name: Required packages are installed and up to date
+      ansible.builtin.dnf:
+        name:
+          - "{{ web_pkg}}"
+          - "{{ firewall_pkg }}"
+          - "{{ python_pkg }}"
+        state: latest
+
+    - name: The {{ firewall_service  }}  service is started and enabled
+      ansible.builtin.service:
+        name: "{{ firewall_service }}"
+        enabled: true
+        state: started
+    - name: The {{ web_service  }}  service is started and enabled
+      ansible.builtin.service:
+        name: "{{ web_service }}"
+        enabled: true
+        state: started
+      
+
+    - name: webcontent is in place
+      ansible.builtin.copy:
+        content: "Example web content\n"
+        dest: /var/www/html/index.html
+    
+    - name: the firewall port for the {{ rule }} is open
+      ansible.posix.firewalld:
+        service: "{{ rule }}"
+        permanent: true
+        immediate: true
+        state: enabled      

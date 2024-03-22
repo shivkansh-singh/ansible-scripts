@@ -1,0 +1,473 @@
+Oct 15 22:10:18 serverb polkitd[866]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 15 22:10:18 serverb polkitd[866]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 15 22:10:18 serverb polkitd[866]: Finished loading, compiling and executing 12 rules
+Oct 15 22:10:18 serverb polkitd[866]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 15 22:10:20 serverb sshd[1062]: Server listening on 0.0.0.0 port 22.
+Oct 15 22:10:20 serverb sshd[1062]: Server listening on :: port 22.
+Oct 15 22:10:22 serverb systemd[1166]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 15 22:10:22 serverb gdm-launch-environment][1161]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 15 22:10:24 serverb polkitd[866]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 22:10:38 serverb unix_chkpwd[1585]: password check failed for user (root)
+Oct 15 22:10:38 serverb gdm-password][1579]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Oct 15 22:10:38 serverb gdm-password][1579]: gkr-pam: unable to locate daemon control file
+Oct 15 22:10:38 serverb gdm-password][1579]: gkr-pam: stashed password to try later in open session
+Oct 15 22:10:49 serverb gdm-password][1586]: gkr-pam: unable to locate daemon control file
+Oct 15 22:10:49 serverb gdm-password][1586]: gkr-pam: stashed password to try later in open session
+Oct 15 22:10:49 serverb systemd[1597]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:10:49 serverb gdm-password][1586]: pam_unix(gdm-password:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:10:49 serverb gdm-password][1586]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 15 22:10:53 serverb polkitd[866]: Registered Authentication Agent for unix-session:2 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 22:11:01 serverb gdm-launch-environment][1161]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 15 22:11:01 serverb polkitd[866]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 15 22:53:53 serverb polkitd[860]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 15 22:53:53 serverb polkitd[860]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 15 22:53:53 serverb polkitd[860]: Finished loading, compiling and executing 12 rules
+Oct 15 22:53:53 serverb polkitd[860]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 15 22:53:55 serverb sshd[1033]: Server listening on 0.0.0.0 port 22.
+Oct 15 22:53:55 serverb sshd[1033]: Server listening on :: port 22.
+Oct 15 22:53:56 serverb systemd[1137]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 15 22:53:56 serverb gdm-launch-environment][1132]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 15 22:54:00 serverb polkitd[860]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 22:54:17 serverb gdm-password][1539]: gkr-pam: unable to locate daemon control file
+Oct 15 22:54:17 serverb gdm-password][1539]: gkr-pam: stashed password to try later in open session
+Oct 15 22:54:17 serverb systemd[1550]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:54:18 serverb gdm-password][1539]: pam_unix(gdm-password:session): session opened for user root(uid=0) by (uid=0)
+Oct 15 22:54:18 serverb gdm-password][1539]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 15 22:54:22 serverb polkitd[860]: Registered Authentication Agent for unix-session:2 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 22:54:30 serverb gdm-launch-environment][1132]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 15 22:54:30 serverb polkitd[860]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 16 17:08:12 serverb polkitd[860]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 16 17:08:12 serverb polkitd[860]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 16 17:08:12 serverb polkitd[860]: Finished loading, compiling and executing 12 rules
+Oct 16 17:08:12 serverb polkitd[860]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 16 17:08:14 serverb sshd[1043]: Server listening on 0.0.0.0 port 22.
+Oct 16 17:08:14 serverb sshd[1043]: Server listening on :: port 22.
+Oct 16 17:08:16 serverb systemd[1145]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 16 17:08:16 serverb gdm-launch-environment][1140]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 16 17:08:20 serverb polkitd[860]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 17:10:13 serverb unix_chkpwd[1574]: password check failed for user (root)
+Oct 16 17:10:13 serverb gdm-password][1563]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Oct 16 17:10:13 serverb gdm-password][1563]: gkr-pam: unable to locate daemon control file
+Oct 16 17:10:13 serverb gdm-password][1563]: gkr-pam: stashed password to try later in open session
+Oct 16 17:10:19 serverb gdm-password][1575]: gkr-pam: unable to locate daemon control file
+Oct 16 17:10:19 serverb gdm-password][1575]: gkr-pam: stashed password to try later in open session
+Oct 16 17:10:19 serverb systemd[1586]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:10:19 serverb gdm-password][1575]: pam_unix(gdm-password:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 17:10:19 serverb gdm-password][1575]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 16 17:10:23 serverb polkitd[860]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 17:10:31 serverb gdm-launch-environment][1140]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 16 17:10:31 serverb polkitd[860]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 16 17:16:38 serverb gdm-password][2309]: gkr-pam: unlocked login keyring
+Oct 16 17:16:44 serverb useradd[2326]: new group: name=student, GID=1001
+Oct 16 17:16:44 serverb useradd[2326]: new user: name=student, UID=1001, GID=1001, home=/home/student, shell=/bin/bash, from=/dev/pts/0
+Oct 16 17:16:50 serverb passwd[2337]: pam_unix(passwd:chauthtok): password changed for student
+Oct 16 17:16:50 serverb passwd[2337]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Oct 16 17:17:25 serverb passwd[2360]: pam_unix(passwd:chauthtok): password changed for root
+Oct 16 17:17:25 serverb passwd[2360]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Oct 16 17:53:52 serverb gdm-password][2390]: gkr-pam: the password for the login keyring was invalid.
+Oct 16 21:05:16 serverb polkitd[860]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 16 21:05:16 serverb polkitd[860]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 16 21:05:16 serverb polkitd[860]: Finished loading, compiling and executing 12 rules
+Oct 16 21:05:16 serverb polkitd[860]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 16 21:05:18 serverb sshd[1033]: Server listening on 0.0.0.0 port 22.
+Oct 16 21:05:18 serverb sshd[1033]: Server listening on :: port 22.
+Oct 16 21:05:19 serverb systemd[1137]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 16 21:05:19 serverb gdm-launch-environment][1132]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 16 21:05:23 serverb polkitd[860]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 21:25:26 serverb sshd[1569]: Connection closed by authenticating user student 192.168.161.128 port 45182 [preauth]
+Oct 16 21:25:26 serverb sshd[1571]: Connection closed by authenticating user student 192.168.161.128 port 45198 [preauth]
+Oct 16 21:25:29 serverb sshd[1573]: Accepted password for student from 192.168.161.128 port 45208 ssh2
+Oct 16 21:25:29 serverb systemd[1581]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 21:25:30 serverb sshd[1573]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 21:25:30 serverb sshd[1604]: Received disconnect from 192.168.161.128 port 45208:11: disconnected by user
+Oct 16 21:25:30 serverb sshd[1604]: Disconnected from user student 192.168.161.128 port 45208
+Oct 16 21:25:30 serverb sshd[1573]: pam_unix(sshd:session): session closed for user student
+Oct 16 21:33:32 serverb sshd[1659]: Accepted publickey for student from 192.168.161.128 port 45976 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 16 21:33:32 serverb systemd[1664]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 21:33:32 serverb sshd[1659]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 21:33:37 serverb sshd[1688]: Received disconnect from 192.168.161.128 port 45976:11: disconnected by user
+Oct 16 21:33:37 serverb sshd[1688]: Disconnected from user student 192.168.161.128 port 45976
+Oct 16 21:33:37 serverb sshd[1659]: pam_unix(sshd:session): session closed for user student
+Oct 16 22:52:38 serverb unix_chkpwd[1805]: password check failed for user (root)
+Oct 16 22:52:38 serverb gdm-password][1792]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Oct 16 22:52:38 serverb gdm-password][1792]: gkr-pam: unable to locate daemon control file
+Oct 16 22:52:38 serverb gdm-password][1792]: gkr-pam: stashed password to try later in open session
+Oct 16 22:52:44 serverb gdm-password][1806]: gkr-pam: unable to locate daemon control file
+Oct 16 22:52:44 serverb gdm-password][1806]: gkr-pam: stashed password to try later in open session
+Oct 16 22:52:44 serverb systemd[1816]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:52:44 serverb gdm-password][1806]: pam_unix(gdm-password:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 22:52:44 serverb gdm-password][1806]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 16 22:52:49 serverb polkitd[860]: Registered Authentication Agent for unix-session:6 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 22:52:55 serverb polkitd[860]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 16 22:52:56 serverb gdm-launch-environment][1132]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 16 23:09:07 serverb sshd[2551]: Accepted publickey for student from 192.168.161.128 port 49424 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 16 23:09:07 serverb systemd[2556]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:09:07 serverb sshd[2551]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:09:08 serverb sudo[2700]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jbrbwwdtnmpfcnhgtpqloxybtoydhstm ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697477948.1073303-4569-144232380901927/AnsiballZ_ping.py
+Oct 16 23:09:08 serverb sudo[2700]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 16 23:09:09 serverb sudo[2700]: pam_unix(sudo:session): session closed for user root
+Oct 16 23:10:09 serverb sshd[2567]: Received disconnect from 192.168.161.128 port 49424:11: disconnected by user
+Oct 16 23:10:09 serverb sshd[2567]: Disconnected from user student 192.168.161.128 port 49424
+Oct 16 23:10:09 serverb sshd[2551]: pam_unix(sshd:session): session closed for user student
+Oct 16 23:12:30 serverb sshd[2724]: Accepted publickey for student from 192.168.161.128 port 45686 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 16 23:12:30 serverb systemd[2728]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:12:31 serverb sshd[2724]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:12:31 serverb sudo[2871]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nsvpflykqkvhgnzjtpnmgcwoafrtynfk ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697478151.2640104-4776-9671362947406/AnsiballZ_ping.py
+Oct 16 23:12:31 serverb sudo[2871]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 16 23:12:32 serverb sudo[2871]: pam_unix(sudo:session): session closed for user root
+Oct 16 23:13:32 serverb sshd[2738]: Received disconnect from 192.168.161.128 port 45686:11: disconnected by user
+Oct 16 23:13:32 serverb sshd[2738]: Disconnected from user student 192.168.161.128 port 45686
+Oct 16 23:13:32 serverb sshd[2724]: pam_unix(sshd:session): session closed for user student
+Oct 16 23:24:09 serverb sshd[2895]: Accepted publickey for student from 192.168.161.128 port 43264 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 16 23:24:09 serverb systemd[2899]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:24:09 serverb sshd[2895]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:24:10 serverb sudo[3042]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lkkgtrdnbggoevolrymiszozmjuzvhbt ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697478850.0662067-5009-177579928009015/AnsiballZ_ping.py
+Oct 16 23:24:10 serverb sudo[3042]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 16 23:24:11 serverb sudo[3042]: pam_unix(sudo:session): session closed for user root
+Oct 16 23:25:11 serverb sshd[2909]: Received disconnect from 192.168.161.128 port 43264:11: disconnected by user
+Oct 16 23:25:11 serverb sshd[2909]: Disconnected from user student 192.168.161.128 port 43264
+Oct 16 23:25:11 serverb sshd[2895]: pam_unix(sshd:session): session closed for user student
+Oct 16 23:25:38 serverb sshd[3067]: Accepted publickey for student from 192.168.161.128 port 34282 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 16 23:25:38 serverb systemd[3071]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:25:38 serverb sshd[3067]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:25:39 serverb sudo[3215]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fvnqwzxntmuonxzlqsvpdmovtaaqtlvb ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697478938.5969033-5229-134991109347022/AnsiballZ_command.py
+Oct 16 23:25:39 serverb sudo[3215]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 16 23:25:39 serverb sudo[3215]: pam_unix(sudo:session): session closed for user root
+Oct 16 23:26:39 serverb sshd[3082]: Received disconnect from 192.168.161.128 port 34282:11: disconnected by user
+Oct 16 23:26:39 serverb sshd[3082]: Disconnected from user student 192.168.161.128 port 34282
+Oct 16 23:26:39 serverb sshd[3067]: pam_unix(sshd:session): session closed for user student
+Oct 16 23:27:22 serverb sshd[3238]: Accepted publickey for student from 192.168.161.128 port 52984 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 16 23:27:22 serverb systemd[3242]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:27:22 serverb sshd[3238]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 16 23:27:23 serverb sudo[3385]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-kdgdzksvvrztkmoitafrpgjbywacputr ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697479042.831525-5267-183673274258088/AnsiballZ_command.py
+Oct 16 23:27:23 serverb sudo[3385]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 16 23:27:23 serverb sudo[3385]: pam_unix(sudo:session): session closed for user root
+Oct 16 23:28:23 serverb sshd[3252]: Received disconnect from 192.168.161.128 port 52984:11: disconnected by user
+Oct 16 23:28:23 serverb sshd[3252]: Disconnected from user student 192.168.161.128 port 52984
+Oct 16 23:28:23 serverb sshd[3238]: pam_unix(sshd:session): session closed for user student
+Oct 18 11:16:12 serverb polkitd[860]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 18 11:16:12 serverb polkitd[860]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 18 11:16:12 serverb polkitd[860]: Finished loading, compiling and executing 12 rules
+Oct 18 11:16:12 serverb polkitd[860]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 18 11:16:15 serverb sshd[1043]: Server listening on 0.0.0.0 port 22.
+Oct 18 11:16:15 serverb sshd[1043]: Server listening on :: port 22.
+Oct 18 11:16:17 serverb systemd[1146]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 18 11:16:17 serverb gdm-launch-environment][1141]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 18 11:16:22 serverb polkitd[860]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 18 13:01:03 serverb sshd[1758]: Accepted publickey for student from 192.168.161.128 port 52376 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 13:01:03 serverb systemd[1766]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 13:01:03 serverb sshd[1758]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 13:01:04 serverb sudo[1932]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-msxplpvtgusthiztxjuykwydebjmmebo ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697614264.1710303-30-43747988287095/AnsiballZ_setup.py
+Oct 18 13:01:04 serverb sudo[1932]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 13:01:06 serverb sudo[1932]: pam_unix(sudo:session): session closed for user root
+Oct 18 13:01:06 serverb sshd[1758]: pam_unix(sshd:session): session closed for user student
+Oct 18 16:07:42 serverb sshd[2162]: Accepted publickey for student from 192.168.161.128 port 36300 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 16:07:42 serverb systemd[2168]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 16:07:42 serverb sshd[2162]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 16:07:43 serverb sudo[2334]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ljozqxlybwixzwqtkmkovwellskhdpqg ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697625463.144171-6538-172501638340181/AnsiballZ_ping.py
+Oct 18 16:07:43 serverb sudo[2334]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 16:07:44 serverb sudo[2334]: pam_unix(sudo:session): session closed for user root
+Oct 18 16:08:44 serverb sshd[2191]: Received disconnect from 192.168.161.128 port 36300:11: disconnected by user
+Oct 18 16:08:44 serverb sshd[2191]: Disconnected from user student 192.168.161.128 port 36300
+Oct 18 16:08:44 serverb sshd[2162]: pam_unix(sshd:session): session closed for user student
+Oct 18 20:40:45 serverb unix_chkpwd[2561]: password check failed for user (root)
+Oct 18 20:40:45 serverb gdm-password][2550]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Oct 18 20:40:45 serverb gdm-password][2550]: gkr-pam: unable to locate daemon control file
+Oct 18 20:40:45 serverb gdm-password][2550]: gkr-pam: stashed password to try later in open session
+Oct 18 20:40:51 serverb gdm-password][2562]: gkr-pam: unable to locate daemon control file
+Oct 18 20:40:51 serverb gdm-password][2562]: gkr-pam: stashed password to try later in open session
+Oct 18 20:40:51 serverb systemd[2573]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 20:40:51 serverb gdm-password][2562]: pam_unix(gdm-password:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 20:40:51 serverb gdm-password][2562]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 18 20:40:57 serverb polkitd[860]: Registered Authentication Agent for unix-session:6 (system bus name :1.96 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 18 20:41:03 serverb polkitd[860]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 18 20:41:03 serverb gdm-launch-environment][1141]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 18 21:14:43 serverb sshd[3361]: Accepted publickey for student from 192.168.161.128 port 51896 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 21:14:44 serverb systemd[3365]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:14:44 serverb sshd[3361]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:14:45 serverb sudo[3508]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fzvryepfxqckbcbetuznbizyofdgzavw ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697643884.5302527-9080-176205853674495/AnsiballZ_ping.py
+Oct 18 21:14:45 serverb sudo[3508]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 21:14:45 serverb sudo[3508]: pam_unix(sudo:session): session closed for user root
+Oct 18 21:15:45 serverb sshd[3375]: Received disconnect from 192.168.161.128 port 51896:11: disconnected by user
+Oct 18 21:15:45 serverb sshd[3375]: Disconnected from user student 192.168.161.128 port 51896
+Oct 18 21:15:45 serverb sshd[3361]: pam_unix(sshd:session): session closed for user student
+Oct 18 21:34:47 serverb sshd[3542]: Accepted publickey for student from 192.168.161.128 port 46654 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 21:34:47 serverb systemd[3547]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:34:47 serverb sshd[3542]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:34:48 serverb sudo[3691]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pcoqsrruukzqhkgcencobssqnlcxnqdp ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697645087.5492127-28-98615423746935/AnsiballZ_setup.py
+Oct 18 21:34:48 serverb sudo[3691]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 21:34:49 serverb sudo[3691]: pam_unix(sudo:session): session closed for user root
+Oct 18 21:34:50 serverb sudo[3840]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uvgsvsgicnrpbpymkzeafmliznnmfcvb ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697645090.1022544-42-94631803263038/AnsiballZ_dnf.py
+Oct 18 21:34:50 serverb sudo[3840]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 21:35:10 serverb groupadd[3859]: group added to /etc/group: name=mysql, GID=27
+Oct 18 21:35:10 serverb groupadd[3859]: group added to /etc/gshadow: name=mysql
+Oct 18 21:35:10 serverb groupadd[3859]: new group: name=mysql, GID=27
+Oct 18 21:35:10 serverb useradd[3865]: new user: name=mysql, UID=27, GID=27, home=/var/lib/mysql, shell=/sbin/nologin, from=none
+Oct 18 21:35:17 serverb sudo[3840]: pam_unix(sudo:session): session closed for user root
+Oct 18 21:35:19 serverb sudo[8366]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jdrfxmjrcoalwgkkrjcmzvbsrcfrueau ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697645117.855856-51-212894489784056/AnsiballZ_systemd.py
+Oct 18 21:35:19 serverb sudo[8366]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 21:35:23 serverb sudo[8366]: pam_unix(sudo:session): session closed for user root
+Oct 18 21:35:23 serverb sshd[3542]: pam_unix(sshd:session): session closed for user student
+Oct 18 21:35:34 serverb sshd[26095]: Accepted publickey for student from 192.168.161.128 port 42894 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 21:35:34 serverb systemd[26195]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:35:34 serverb sshd[26095]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:35:36 serverb sudo[27837]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wkkypkslysecdlqelvfyaqsfuxpslwfu ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697645134.7867737-28-64506495449606/AnsiballZ_setup.py
+Oct 18 21:35:36 serverb sudo[27837]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 21:35:37 serverb sudo[27837]: pam_unix(sudo:session): session closed for user root
+Oct 18 21:35:38 serverb sudo[30269]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oxndbtwbcwkfuagsmxtnrcphbatthtit ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697645138.0804963-42-221535507416433/AnsiballZ_dnf.py
+Oct 18 21:35:38 serverb sudo[30269]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 21:35:42 serverb sudo[30269]: pam_unix(sudo:session): session closed for user root
+Oct 18 21:35:43 serverb sshd[26095]: pam_unix(sshd:session): session closed for user student
+Oct 18 21:53:40 serverb sshd[34578]: Accepted publickey for student from 192.168.161.128 port 47340 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 21:53:40 serverb systemd[34584]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:53:41 serverb sshd[34578]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:53:41 serverb sudo[34728]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sbnetmwognhmjjmlbqanvltbjtbemfcj ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697646221.2175133-9989-29468653238640/AnsiballZ_setup.py
+Oct 18 21:53:41 serverb sudo[34728]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 21:53:43 serverb sudo[34728]: pam_unix(sudo:session): session closed for user root
+Oct 18 21:54:24 serverb sshd[34784]: Accepted publickey for student from 192.168.161.128 port 54364 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 21:54:25 serverb sshd[34784]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 21:54:26 serverb sudo[34920]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zivhnjabzeogyhzldpbfjpcedrrthkzi ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697646265.1368194-32-224858552235969/AnsiballZ_setup.py
+Oct 18 21:54:26 serverb sudo[34920]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 21:54:27 serverb sudo[34920]: pam_unix(sudo:session): session closed for user root
+Oct 18 21:54:28 serverb sshd[34784]: pam_unix(sshd:session): session closed for user student
+Oct 18 21:54:43 serverb sshd[34595]: Received disconnect from 192.168.161.128 port 47340:11: disconnected by user
+Oct 18 21:54:43 serverb sshd[34595]: Disconnected from user student 192.168.161.128 port 47340
+Oct 18 21:54:43 serverb sshd[34578]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:00:16 serverb sshd[34978]: Accepted publickey for student from 192.168.161.128 port 52560 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:00:17 serverb systemd[34984]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:00:17 serverb sshd[34978]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:00:18 serverb sudo[35127]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-exijipczielxfzlzkkeflqsomhddruxt ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697646617.520779-29-144574905341243/AnsiballZ_setup.py
+Oct 18 22:00:18 serverb sudo[35127]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:00:19 serverb sudo[35127]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:00:20 serverb sshd[34978]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:02:44 serverb sshd[35199]: Accepted publickey for student from 192.168.161.128 port 37048 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:02:44 serverb systemd[35203]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:02:44 serverb sshd[35199]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:02:45 serverb sudo[35346]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fanzizvtrxddcgwbrpdtarwudohtmovd ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697646764.6838317-29-180018173781465/AnsiballZ_setup.py
+Oct 18 22:02:45 serverb sudo[35346]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:02:46 serverb sudo[35346]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:02:47 serverb sshd[35199]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:05:53 serverb sshd[35402]: Accepted publickey for student from 192.168.161.128 port 38690 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:05:53 serverb systemd[35406]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:05:54 serverb sshd[35402]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:05:54 serverb sudo[35549]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zzawzprgwbjwpysczyfghucuswbiklfx ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697646954.3097315-31-236609923229655/AnsiballZ_setup.py
+Oct 18 22:05:54 serverb sudo[35549]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:05:56 serverb sudo[35549]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:05:57 serverb sudo[35698]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xpoluduvaemsnnegsnzuiclllpugbrgp ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697646956.6163983-73-186220814524268/AnsiballZ_dnf.py
+Oct 18 22:05:57 serverb sudo[35698]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:05:59 serverb sudo[35698]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:06:05 serverb sshd[35402]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:06:48 serverb sshd[35723]: Accepted publickey for student from 192.168.161.128 port 39840 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:06:48 serverb systemd[35727]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:06:49 serverb sshd[35723]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:06:49 serverb sudo[35870]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-txfzkkukkznxwstbzmfbwhivjjfltgsq ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697647009.1256418-30-83914408996428/AnsiballZ_setup.py
+Oct 18 22:06:49 serverb sudo[35870]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:06:51 serverb sudo[35870]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:06:52 serverb sudo[36019]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-txjksttwlvqmngdqbpwaecpokgvyjgng ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697647011.5470963-73-226275686330246/AnsiballZ_dnf.py
+Oct 18 22:06:52 serverb sudo[36019]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:06:53 serverb sudo[36019]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:06:59 serverb sshd[35723]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:07:51 serverb sshd[36045]: Accepted publickey for student from 192.168.161.128 port 49428 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:07:51 serverb systemd[36049]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:07:51 serverb sshd[36045]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:07:52 serverb sudo[36192]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ctupxjlacsgiytdufysodsyobqbhabse ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697647071.9000757-12296-147457742420684/AnsiballZ_ping.py
+Oct 18 22:07:52 serverb sudo[36192]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:07:52 serverb sudo[36192]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:08:30 serverb sudo[36356]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-otohzngxudtonypuiywvvztqfvaubhxf ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697647109.8307807-12511-27586163482900/AnsiballZ_command.py
+Oct 18 22:08:30 serverb sudo[36356]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:08:30 serverb sudo[36356]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:08:42 serverb gdm-password][36388]: gkr-pam: the password for the login keyring was invalid.
+Oct 18 22:09:30 serverb sshd[36059]: Received disconnect from 192.168.161.128 port 49428:11: disconnected by user
+Oct 18 22:09:30 serverb sshd[36059]: Disconnected from user student 192.168.161.128 port 49428
+Oct 18 22:09:30 serverb sshd[36045]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:11:29 serverb sshd[36489]: Accepted publickey for student from 192.168.161.128 port 38816 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:11:29 serverb systemd[36493]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:11:29 serverb sshd[36489]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:11:30 serverb sudo[36637]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tljbvdmjbtknrbtonqbfbmjrxnqwkgap ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697647289.647656-28-81854288143909/AnsiballZ_setup.py
+Oct 18 22:11:30 serverb sudo[36637]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:11:31 serverb sudo[36637]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:11:32 serverb sudo[36786]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fiybafracmkjxjlzjkfgujxolnziarrm ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697647291.8681345-42-91096832157568/AnsiballZ_dnf.py
+Oct 18 22:11:32 serverb sudo[36786]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:11:34 serverb sudo[36786]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:11:34 serverb sshd[36489]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:14:22 serverb sshd[36813]: Accepted publickey for student from 192.168.161.128 port 34708 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:14:22 serverb systemd[36817]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:14:22 serverb sshd[36813]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:14:23 serverb sudo[36960]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pxpxmoxgxdwngactuugoapgauvmdsfxp ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697647462.39196-28-38526572791693/AnsiballZ_setup.py
+Oct 18 22:14:23 serverb sudo[36960]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:14:24 serverb sudo[36960]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:14:25 serverb sudo[37109]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tepispftxaeydolqwsosseulvlgwtnhl ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697647464.5306222-42-32104582904705/AnsiballZ_dnf.py
+Oct 18 22:14:25 serverb sudo[37109]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:14:26 serverb sudo[37109]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:14:26 serverb sshd[36813]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:15:31 serverb su[37196]: pam_unix(su-l:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:15:45 serverb su[37196]: pam_unix(su-l:session): session closed for user student
+Oct 18 22:26:49 serverb polkitd[860]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 18 22:26:49 serverb polkitd[860]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 18 22:26:49 serverb polkitd[860]: Finished loading, compiling and executing 12 rules
+Oct 18 22:26:49 serverb polkitd[860]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 18 22:26:50 serverb sshd[990]: Server listening on 0.0.0.0 port 22.
+Oct 18 22:26:50 serverb sshd[990]: Server listening on :: port 22.
+Oct 18 22:26:51 serverb systemd[1192]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 18 22:26:52 serverb gdm-launch-environment][1187]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 18 22:26:54 serverb polkitd[860]: Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 18 22:27:44 serverb gdm-password][1604]: gkr-pam: unable to locate daemon control file
+Oct 18 22:27:44 serverb gdm-password][1604]: gkr-pam: stashed password to try later in open session
+Oct 18 22:27:44 serverb systemd[1620]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 22:27:45 serverb gdm-password][1604]: pam_unix(gdm-password:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 22:27:45 serverb gdm-password][1604]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 18 22:27:49 serverb polkitd[860]: Registered Authentication Agent for unix-session:2 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 18 22:27:57 serverb polkitd[860]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 18 22:27:57 serverb gdm-launch-environment][1187]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 18 22:33:38 serverb su[2401]: pam_unix(su-l:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:33:58 serverb sudo[2429]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/cd /etc/yum.repos.d
+Oct 18 22:33:58 serverb sudo[2429]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 18 22:33:58 serverb sudo[2429]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:34:29 serverb sudo[2440]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/yum install httpd
+Oct 18 22:34:29 serverb sudo[2440]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+Oct 18 22:34:32 serverb sudo[2440]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:34:41 serverb su[2401]: pam_unix(su-l:session): session closed for user student
+Oct 18 22:36:25 serverb sshd[2450]: Accepted publickey for student from 192.168.161.128 port 52614 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:36:25 serverb systemd[2454]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:36:25 serverb sshd[2450]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:36:26 serverb sudo[2597]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rbmolxcyefkqzmxyigxqzjnpivwubcfq ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697648786.0962973-12869-15877477064615/AnsiballZ_ping.py
+Oct 18 22:36:26 serverb sudo[2597]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:36:27 serverb sudo[2597]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:37:23 serverb sudo[2751]: student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ffwlgzctybdtoxspvsszujssipwtnezv ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697648843.2655256-12998-70462526752725/AnsiballZ_command.py
+Oct 18 22:37:23 serverb sudo[2751]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:37:24 serverb sudo[2751]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:38:24 serverb sshd[2464]: Received disconnect from 192.168.161.128 port 52614:11: disconnected by user
+Oct 18 22:38:24 serverb sshd[2464]: Disconnected from user student 192.168.161.128 port 52614
+Oct 18 22:38:24 serverb sshd[2450]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:39:34 serverb sshd[2858]: Accepted publickey for student from 192.168.161.128 port 35776 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:39:34 serverb systemd[2862]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:39:34 serverb sshd[2858]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:39:35 serverb sudo[3005]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tnzjlcievylntdlnxgqzwnqahvcfuoxf ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697648975.0945587-28-227699274011736/AnsiballZ_setup.py
+Oct 18 22:39:35 serverb sudo[3005]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:39:36 serverb sudo[3005]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:39:37 serverb sudo[3154]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ebpbzgbpgtxtaixjzgofizhtjbcucokg ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697648977.12753-42-127027414375919/AnsiballZ_user.py
+Oct 18 22:39:37 serverb sudo[3154]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:39:38 serverb useradd[3157]: new group: name=rahul, GID=1002
+Oct 18 22:39:38 serverb useradd[3157]: new user: name=rahul, UID=1002, GID=1002, home=/home/rahul, shell=/bin/bash, from=/dev/pts/1
+Oct 18 22:39:38 serverb sudo[3154]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:39:38 serverb sshd[2858]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:39:59 serverb sshd[3185]: Accepted publickey for student from 192.168.161.128 port 45730 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:39:59 serverb systemd[3189]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:40:00 serverb sshd[3185]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:40:00 serverb sudo[3332]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-itkonckcwnfcevwczzcqypqpidpsxtsc ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697649000.1342828-13124-25395902164577/AnsiballZ_command.py
+Oct 18 22:40:00 serverb sudo[3332]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:40:01 serverb sudo[3332]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:41:01 serverb sshd[3199]: Received disconnect from 192.168.161.128 port 45730:11: disconnected by user
+Oct 18 22:41:01 serverb sshd[3199]: Disconnected from user student 192.168.161.128 port 45730
+Oct 18 22:41:01 serverb sshd[3185]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:47:10 serverb gdm-password][3380]: gkr-pam: the password for the login keyring was invalid.
+Oct 18 22:48:34 serverb sshd[3406]: Accepted publickey for student from 192.168.161.128 port 36124 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:48:34 serverb systemd[3410]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:48:35 serverb sshd[3406]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:48:36 serverb sudo[3554]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lhripvugqwiizuzuoimuxetgfjgllvdf ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697649515.2340908-28-155114696767840/AnsiballZ_setup.py
+Oct 18 22:48:36 serverb sudo[3554]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:48:37 serverb sudo[3554]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:48:37 serverb sudo[3703]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-actflxkkxzwtqorxixycrambrobilizm ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697649517.3305087-42-9348250618399/AnsiballZ_dnf.py
+Oct 18 22:48:37 serverb sudo[3703]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:48:41 serverb groupadd[3712]: group added to /etc/group: name=apache, GID=48
+Oct 18 22:48:41 serverb groupadd[3712]: group added to /etc/gshadow: name=apache
+Oct 18 22:48:41 serverb groupadd[3712]: new group: name=apache, GID=48
+Oct 18 22:48:41 serverb useradd[3719]: new user: name=apache, UID=48, GID=48, home=/usr/share/httpd, shell=/sbin/nologin, from=none
+Oct 18 22:48:46 serverb sudo[3703]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:48:46 serverb sshd[3406]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:51:34 serverb sshd[4271]: Accepted publickey for student from 192.168.161.128 port 52156 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:51:34 serverb systemd[4275]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:51:35 serverb sshd[4271]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:51:36 serverb sudo[4418]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-omvoxlkbdyegbxbilzmqbsgznfcwunjx ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697649695.278186-29-213127718462727/AnsiballZ_setup.py
+Oct 18 22:51:36 serverb sudo[4418]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:51:37 serverb sudo[4418]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:51:37 serverb sshd[4271]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:52:48 serverb sshd[4474]: Accepted publickey for student from 192.168.161.128 port 35272 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:52:48 serverb systemd[4478]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:52:48 serverb sshd[4474]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:52:49 serverb sudo[4621]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-hjmtwtjdhoeiisnrpelnhxkgfgyscuvy ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697649769.009186-13702-125603762927901/AnsiballZ_setup.py
+Oct 18 22:52:49 serverb sudo[4621]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:52:50 serverb sudo[4621]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:53:51 serverb sshd[4488]: Received disconnect from 192.168.161.128 port 35272:11: disconnected by user
+Oct 18 22:53:51 serverb sshd[4488]: Disconnected from user student 192.168.161.128 port 35272
+Oct 18 22:53:51 serverb sshd[4474]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:57:24 serverb sshd[4681]: Accepted publickey for student from 192.168.161.128 port 50082 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:57:24 serverb systemd[4685]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:57:24 serverb sshd[4681]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:57:25 serverb sudo[4828]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zklhhgnsviqffakafzzjwwfvooweejfm ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650044.7445488-13834-215367582767893/AnsiballZ_setup.py
+Oct 18 22:57:25 serverb sudo[4828]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:57:26 serverb sudo[4828]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:57:48 serverb sshd[4884]: Accepted publickey for student from 192.168.161.128 port 34428 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 22:57:48 serverb sshd[4884]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 22:57:50 serverb sudo[5020]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uwsfneitdskiapvxebvzmhlirbdatxfv ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650069.0962687-29-183802410572473/AnsiballZ_setup.py
+Oct 18 22:57:50 serverb sudo[5020]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 22:57:51 serverb sudo[5020]: pam_unix(sudo:session): session closed for user root
+Oct 18 22:57:51 serverb sshd[4884]: pam_unix(sshd:session): session closed for user student
+Oct 18 22:58:26 serverb sshd[4695]: Received disconnect from 192.168.161.128 port 50082:11: disconnected by user
+Oct 18 22:58:26 serverb sshd[4695]: Disconnected from user student 192.168.161.128 port 50082
+Oct 18 22:58:26 serverb sshd[4681]: pam_unix(sshd:session): session closed for user student
+Oct 18 23:03:00 serverb sshd[5086]: Accepted publickey for student from 192.168.161.128 port 50340 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 23:03:00 serverb systemd[5090]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:03:00 serverb sshd[5086]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:03:01 serverb sudo[5234]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ehyvtrfsjhwidrjzcrgnenjlzntqzgzv ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650381.0194526-14211-64810610491306/AnsiballZ_setup.py
+Oct 18 23:03:01 serverb sudo[5234]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:03:02 serverb sudo[5234]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:03:25 serverb sshd[5290]: Accepted publickey for student from 192.168.161.128 port 56870 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 23:03:25 serverb sshd[5290]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:03:26 serverb sudo[5426]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qdzscpqkvmbmwiebtgrbyhldqjeprcgz ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650405.4148965-29-153508248999632/AnsiballZ_setup.py
+Oct 18 23:03:26 serverb sudo[5426]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:03:27 serverb sudo[5426]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:03:27 serverb sshd[5290]: pam_unix(sshd:session): session closed for user student
+Oct 18 23:04:03 serverb sshd[5101]: Received disconnect from 192.168.161.128 port 50340:11: disconnected by user
+Oct 18 23:04:03 serverb sshd[5101]: Disconnected from user student 192.168.161.128 port 50340
+Oct 18 23:04:03 serverb sshd[5086]: pam_unix(sshd:session): session closed for user student
+Oct 18 23:06:47 serverb sshd[5483]: Accepted publickey for student from 192.168.161.128 port 52420 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 23:06:47 serverb systemd[5487]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:06:47 serverb sshd[5483]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:06:48 serverb sudo[5630]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xylbrxgwegudvowvfcbnaebhwtzihgtu ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650607.523379-28-235656538538883/AnsiballZ_setup.py
+Oct 18 23:06:48 serverb sudo[5630]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:06:49 serverb sudo[5630]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:06:50 serverb sudo[5780]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ltgwuavudzegwjfhsemcazlahhtlgbag ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650609.4734786-42-269558690760868/AnsiballZ_dnf.py
+Oct 18 23:06:50 serverb sudo[5780]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:06:55 serverb sudo[5780]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:06:55 serverb sshd[5483]: pam_unix(sshd:session): session closed for user student
+Oct 18 23:11:09 serverb sshd[5908]: Accepted publickey for student from 192.168.161.128 port 35488 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 23:11:10 serverb systemd[5912]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:11:10 serverb sshd[5908]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:11:11 serverb sudo[6055]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ruyepxdwdhypoyaaxzjdsugssrplfpll ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650870.33805-28-209616105144823/AnsiballZ_setup.py
+Oct 18 23:11:11 serverb sudo[6055]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:11:12 serverb sudo[6055]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:11:13 serverb sudo[6204]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-aurumkishcualvxpqvxgnflcfxyptzpe ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650872.5114636-42-238266113658280/AnsiballZ_dnf.py
+Oct 18 23:11:13 serverb sudo[6204]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:11:17 serverb sudo[6204]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:11:18 serverb sudo[6621]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bdrdwctzpqgplhljoybluxwwveirguxh ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650878.1219907-42-118033763824180/AnsiballZ_dnf.py
+Oct 18 23:11:18 serverb sudo[6621]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:11:21 serverb sudo[6621]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:11:21 serverb sudo[6738]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ieffstimkufcdixaduvtcqajbebditwh ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650881.3573806-42-227356163311548/AnsiballZ_dnf.py
+Oct 18 23:11:21 serverb sudo[6738]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:11:23 serverb sudo[6738]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:11:23 serverb sshd[5908]: pam_unix(sshd:session): session closed for user student
+Oct 18 23:12:04 serverb sshd[6762]: Accepted publickey for student from 192.168.161.128 port 54618 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 23:12:04 serverb systemd[6766]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:12:04 serverb sshd[6762]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:12:05 serverb sudo[6909]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-neawfslueoaxfxxphluffjmjymmxsekf ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650924.861398-14729-186755235301176/AnsiballZ_setup.py
+Oct 18 23:12:05 serverb sudo[6909]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:12:06 serverb sudo[6909]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:12:07 serverb sudo[7060]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-saxinkhbicxpnzvxjcvaohktheiqkdsu ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650926.9096267-14743-37193361341394/AnsiballZ_dnf.py
+Oct 18 23:12:07 serverb sudo[7060]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:12:08 serverb sudo[7060]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:12:08 serverb sudo[7177]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xwbjbqocemkgztisqzgszbfoqpnwsree ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650928.7023776-14743-2617139361316/AnsiballZ_dnf.py
+Oct 18 23:12:08 serverb sudo[7177]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:12:10 serverb sudo[7177]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:12:10 serverb sudo[7294]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-pvlqvjgbwyskanpljlzxgvshlzpmukok ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697650930.3827596-14743-57031871315226/AnsiballZ_dnf.py
+Oct 18 23:12:10 serverb sudo[7294]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:12:11 serverb sudo[7294]: pam_unix(sudo:session): session closed for user root
+Oct 18 23:13:11 serverb sshd[6776]: Received disconnect from 192.168.161.128 port 54618:11: disconnected by user
+Oct 18 23:13:11 serverb sshd[6776]: Disconnected from user student 192.168.161.128 port 54618
+Oct 18 23:13:11 serverb sshd[6762]: pam_unix(sshd:session): session closed for user student
+Oct 18 23:22:00 serverb sshd[7318]: Accepted publickey for student from 192.168.161.128 port 47748 ssh2: RSA SHA256:tAq/80BN+dCE1thgpS8g0IK346N4Znp/mnsypFgLZKo
+Oct 18 23:22:00 serverb systemd[7324]: pam_unix(systemd-user:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:22:00 serverb sshd[7318]: pam_unix(sshd:session): session opened for user student(uid=1001) by (uid=0)
+Oct 18 23:22:01 serverb sudo[7468]: student : TTY=pts/1 ; PWD=/home/student ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dnfmwrfttbyffogwqdwkrsynjgsocltv ; /usr/bin/python3 /home/student/.ansible/tmp/ansible-tmp-1697651520.7435982-28-163972876125928/AnsiballZ_setup.py
+Oct 18 23:22:01 serverb sudo[7468]: pam_unix(sudo:session): session opened for user root(uid=0) by student(uid=1001)
+Oct 18 23:22:02 serverb sudo[7468]: pam_unix(sudo:session): session closed for user root

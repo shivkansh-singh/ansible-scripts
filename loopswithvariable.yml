@@ -1,0 +1,14 @@
+---
+- name: using loops with the variables
+  hosts: servera
+  vars:
+    mail_services:
+      - postfix
+      - dovecot
+  tasks:
+    - name: postfix and dovecot are running with the loops
+      ansible.builtin.service:
+        name: "{{ item }}"
+        state: started
+      loop: "{{ mail_services }}"
+

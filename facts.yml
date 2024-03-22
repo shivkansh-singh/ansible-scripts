@@ -1,0 +1,30 @@
+---
+- name: install remote facts
+  hosts: servera
+  vars: 
+    remote_dirs: /etc/ansible/facts.d
+    facts_file: custom.fact
+  tasks:
+    - name: Create the remote directory
+      ansible.builtin.file:
+        state: directory
+        recurse: yes
+        path: "{{ remote_dirs }}"
+
+    - name: Install the new facts
+      ansible.builtin.copy:
+        src: "{{ facts_file }}"
+        dest: "{{ remote_dirs }}"
+
+- name: install apache and starst the service
+  hosts: servera
+  tasks:
+    - name: install the required package
+      ansible.builtin.dnf:
+        name: "{{ ansible_facts['ansible_local']['custom']['general']['package'] }}"
+        state: present
+    - name: start the service
+      ansible.builtin.service:
+        name: "{{ ansible_facts['ansible_local']['custom']['general']['service'] }}"
+        state: "{{ ansible_facts['ansible_local']['custom']['general']['state'] }}"
+        enabled: "{{ ansible_facts['ansible_local']['custom']['general']['enabled'] }}"

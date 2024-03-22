@@ -1,0 +1,16 @@
+---
+- name: use new-role playbook
+  hosts: servera
+
+  pre_tasks:
+    - name: pre_tasks  messages
+      ansible.builtin.debug:
+        msg: 'Ensure web server configuratuion.'
+
+  roles:
+    - new-role
+
+  post_tasks:
+    - name: post_tasks message
+      ansible.builtin.debug:
+        msg: 'Web server is configured'

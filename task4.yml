@@ -1,0 +1,8 @@
+---
+- name: uni pack
+  hosts: serverb
+  tasks: 
+    - name: uni pack
+      dnf:
+        name: httpd
+        state: present

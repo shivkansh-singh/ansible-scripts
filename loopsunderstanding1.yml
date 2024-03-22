@@ -1,0 +1,11 @@
+---
+- name: Postfix and Dovecot are running
+  hosts: servera
+  tasks:
+   -  name:  loops are running
+      ansible.builtin.service:
+        name: " {{ item }}"
+        state: started
+      loop:
+        - postfix
+        - dovecot

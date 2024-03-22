@@ -1,0 +1,13 @@
+---
+- name: create user accounts for all our servers
+  hosts: servera
+  become: True 
+  remote_user: student
+  vars_files:
+    - secret.yml
+  tasks:
+    - name: Creating user from secret.yml
+      ansible.builtin.user:
+        name: "{{ username}}"
+        password: "{{ pwhash | password_hash('sha512') }}"
+        

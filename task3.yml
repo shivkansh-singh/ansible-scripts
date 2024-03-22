@@ -1,0 +1,16 @@
+---
+- name: packages are uninstalled like mriadb,httpd,python
+  hosts: serverb
+  vars:
+    mariadb_packages:
+      - mariadb-server
+      - python3-PyMySQL
+      - httpd
+
+  tasks:
+    - name: uninstalling packages
+      ansible.builtin.dnf:
+        name: "{{ item }}"
+        state: absent
+      loop: "{{ mariadb_packages}}"
+

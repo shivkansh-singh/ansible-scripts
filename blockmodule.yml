@@ -1,0 +1,14 @@
+---
+- name: using block module
+  hosts: serverb
+  remote_user: student
+  
+  tasks:
+    - name: add block line in file.
+      ansible.builtin.blockinfile:
+        path: /home/student/users.txt
+        block: |
+          This block of text consists of two lines.
+          They have been added by the blockinfile module.
+          hello and done by the shivkansh
+        state: present

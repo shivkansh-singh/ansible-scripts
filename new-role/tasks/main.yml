@@ -1,0 +1,15 @@
+---
+# tasks file for new-role
+
+- name: Ensure httpd is installed
+  ansible.builtin.dnf:
+    name: httpd
+    state: latest
+
+- name: Ensure httpd is started and enabled
+  ansible.builtin.service:
+    name: httpd
+    state: started
+    enabled: true
+  notify:
+    - restart httpd
